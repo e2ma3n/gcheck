@@ -68,7 +68,11 @@ function install_f {
 	echo -en '.'
 
 	echo "user=$username" >> Gcheck.sh
-	echo "pass=$password" >> Gcheck.sh
+	
+	echo -en "pass='" >> Gcheck.sh
+	echo -en "$password" >> Gcheck.sh
+	echo "'" >> Gcheck.sh
+
 	echo "" >> Gcheck.sh
 	echo 'sleep 10' >> Gcheck.sh
 	echo "j=0 ; for ((;;)) ; do" >> Gcheck.sh
