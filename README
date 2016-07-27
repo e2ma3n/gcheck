@@ -1,0 +1,41 @@
+Programming and idea by : E2MA3N [Iman Homayouni]
+Gitbub : https://github.com/e2ma3n
+Email : e2ma3n@Gmail.com
+Website : http://OSLearn.ir
+License : GPL v3.0
+Gcheck v2.0 - Install [Gmail Notification]
+
+
+Description :
+Gmail notification for linux desktop
+
+
+Dependencies :
+1. sleep
+2. curl
+3. shc
+4. zenity
+5. sox
+
+
+Check dependencies :
+1. chmod +x install.sh
+2. sudo ./install.sh -c
+
+
+Install Gcheck v2.0 :
+1. chmod +x install.sh
+2. sudo ./install.sh -i
+
+
+Install sox :
+1. sudo apt-get install sox libsox-fmt-all
+
+
+Tested Gcheck on :
+1. LMDE2 mate desktop - 3.16.0-4-amd64
+2. chromixium 1.5 - 3.13.0-66-generic
+
+
+Notes :
+1. When Gcheck.sh is created, start up this file in your system
