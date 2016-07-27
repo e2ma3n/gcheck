@@ -45,7 +45,7 @@ function install_f {
 	elif [ "$sound_q" = "n" ] ; then
 		sound_v="		# No sound"
 	else
-		echo '[-] Bad input !, we anser n automaticly'
+		echo "[-] Bad input, Selecting 'n' automatically"
 		sound_v='		# No sound'
 	fi
 
