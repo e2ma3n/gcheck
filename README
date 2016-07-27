@@ -13,9 +13,8 @@ Gmail notification for linux desktop
 Dependencies :
 1. sleep
 2. curl
-3. shc
-4. zenity
-5. sox
+3. zenity
+4. sox
 
 
 Check dependencies :
